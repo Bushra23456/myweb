@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: #010001;
+}
+#nav{
+    background-color: #010001;
+    color:#ffffff ;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+   
+}
+#some{
+    color: #285f6b;
+    font-size: 60px;
+    
+
+}
+#and{
+    font-size: 30px;
+   
+}
+
+.moye{
+    margin-top: 10px;
+    background-color: #285f6b;
+    color: #010101;
+    padding-right: 20px;
+    text-align: center;
+    box-shadow: 2px 2px solid rgb(87, 87, 87);
+    font-size: 20px;
+}
+
+.container-fluid{ 
+    background: #010001 ;
+}
+
+
+.item-menu{
+    text-align: center;
+    margin: 10px 30px;
+    
+}
+
+.item-menu ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 10px 13px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #00000070;
+    background-color: #285f6b;
+    margin-left: 15px;
+    box-shadow:  2px 3px 3px #00000070;
+}
+
+.item-menu ul li:hover{ 
+    background-color: #00000070;
+    box-shadow:  2px 4px 4px rgb(235, 235, 235);
+    color:#285f6b;
+}
+
+.item-menu ul li.active{
+    background-color: #00000070;
+    box-shadow:  2px 4px 4px #285f6b;
+    color: #285f6b;
+}
+
+.item-details{
+    margin-bottom:30px;
+}
+
+#camera img{
+    height: 400px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #285f6b;
+}
+
+#camera img:hover{
+   height: 402px ;
+    width: 402px;
+    box-shadow: 2px 4px 4px #285f6b;
+    border: 2px solid #ffffff; 
+}
+
+#phone img{
+    height: 400px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #285f6b;
+}
+
+#phone img:hover{
+    height: 402px ;
+    width: 402px;
+    box-shadow: 2px 4px 4px #285f6b;
+    border: 2px solid #ffffff; 
+}
+
+#shoes img{
+    height: 400px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #285f6b;
+}
+
+#shoes img:hover{
+    height: 402px ;
+    width: 402px;
+    box-shadow: 2px 4px 4px #285f6b;
+    border: 2px solid #ffffff; 
+}
+
+#watch img{
+    height: 400px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #285f6b;
+}
+
+#watch img:hover{
+    height: 402px ;
+    width: 402px;
+    box-shadow: 2px 4px 4px #285f6b;
+    border: 2px solid #ffffff; 
+}
+
+#headphone img{
+    height: 400px ;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #285f6b;
+}
+
+#headphone img:hover{
+    height: 402px ;
+    width: 402px;
+    box-shadow: 2px 4px 4px #285f6b;
+    border: 2px solid #ffffff; 
+}
+.code{
+    text-align: center;
+   
+    border-radius: 18px;
+    padding: 30px;
+}
+.lots{
+    text-align: center;
+    color: #010001;
+    background-color: #285f6b;
+    font-size: 54px;
+}
+.of{
+    background-color: #285f6b;
+    color: #010001;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.of:hover{
+    background-color: rgb(0, 0, 0);
+    color: #285f6b;
+}

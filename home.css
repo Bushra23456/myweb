@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+#nav{
+    background-color: #010001;
+    color:#ffffff ;
+    font-size: 40px;
+   
+}
+.btn{
+    display: inline-block;
+    padding: 14px 34px;
+    background: #285f6b;
+    color: #141414;
+    border: 2px solid var(--main-color);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.6s ease-in-out;
+    display: inline-block;
+    margin-top: 40px;
+
+    
+}
+.main-btn .btn:hover{
+    transform: translateY(-5px);
+    background-color:#133336 ;
+    color:#ffffff ;
+    display: inline-block;
+}
+.two{
+    background: #133336;
+    border: 2px solid #181818;
+    color: #ffffff;
+    margin-left: 25px;
+    display: inline-block;
+}
+.two :hover{
+    color: #000000;
+    background-color:#285f6b ;
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+
+}
+#apple{
+    margin-top: 100px;
+    
+}
+.container-fluid{ 
+    background: #010001 ;
+}
+
+#app{
+   
+    color: #f0f0f0;
+    font-size: 25px;
+    
+}
+#some{
+    color: #285f6b;
+    font-size: 40px;
+    
+
+}
+#image{
+    margin-bottom: 20px;
+    height: 500px;
+}
+#and{
+    font-size: 30px;
+   
+}
+#name{
+    font-size:20px;
+    
+}
+#num{
+    font-size: 40px;
+    color: #367d8A;
+    
+
+}
+#para{
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+
+.social i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background: linear-gradient(130.08deg, #133336, #285f6b 100%);
+    box-shadow: 0px 20px 40px #00000070;
+    border: 3px solid #367d8a;
+    border-radius: 50%;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.6s ease-in-out;
+}
+.social i:hover{
+    transform: translateY(-10px);
+}
